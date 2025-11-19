@@ -45,8 +45,9 @@ public class FacturaDetalle implements Serializable {
     @Basic(optional = false)
     @Column(name = "precio_unitario")
     private BigDecimal precioUnitario;
-    @Column(name = "subtotal")
+    @Column(name = "subtotal", insertable = false, updatable = false)
     private BigDecimal subtotal;
+
     @JoinColumn(name = "id_factura", referencedColumnName = "id_factura")
     @ManyToOne(optional = false)
     private Factura idFactura;

@@ -1,25 +1,18 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Record.java to edit this template
  */
-package com.example.entrevista.control.dtos;
+package com.example.entrevista.control.dtos.request;
 
 /**
  *
  * @author mjlopez
  */
-public class RegisterRequest {
-    private String nombre;
+public class LoginRequest {
     private String correo;
     private String password;
 
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
+    public LoginRequest() {}
 
     public String getCorreo() {
         return correo;
@@ -36,8 +29,6 @@ public class RegisterRequest {
     public void setPassword(String password) {
         this.password = password;
     }
-    
-    
-
 }
+
 

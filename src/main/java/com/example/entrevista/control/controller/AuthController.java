@@ -4,9 +4,9 @@
  */
 package com.example.entrevista.control.controller;
 
-import com.example.entrevista.control.dtos.AuthRequest;
-import com.example.entrevista.control.dtos.AuthResponse;
-import com.example.entrevista.control.dtos.RegisterRequest;
+import com.example.entrevista.control.dtos.request.AuthRequest;
+import com.example.entrevista.control.dtos.response.AuthResponse;
+import com.example.entrevista.control.dtos.request.RegisterRequest;
 import com.example.entrevista.control.services.AuthService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

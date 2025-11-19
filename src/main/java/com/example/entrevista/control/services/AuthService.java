@@ -4,7 +4,7 @@
  */
 package com.example.entrevista.control.services;
 
-import com.example.entrevista.control.dtos.RegisterRequest;
+import com.example.entrevista.control.dtos.request.RegisterRequest;
 import com.example.entrevista.control.repository.UsuarioRepository;
 import com.example.entrevista.entities.Usuario;
 import java.util.function.Supplier;

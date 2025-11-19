@@ -4,17 +4,13 @@
  */
 package com.example.entrevista.control.repository;
 
-import com.example.entrevista.control.dtos.response.FacturaResponse;
-import com.example.entrevista.entities.Factura;
-import java.util.List;
+import com.example.entrevista.entities.Cliente;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
  *
  * @author mjlopez
  */
-public interface FacturaRepository extends JpaRepository<Factura,Integer>{
-    
-    List<Factura> findAll();
+public interface ClienteRepository extends JpaRepository<Cliente,Integer>{
     
 }

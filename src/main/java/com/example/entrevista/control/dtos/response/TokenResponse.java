@@ -2,16 +2,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.example.entrevista.control.dtos;
+package com.example.entrevista.control.dtos.response;
 
 /**
  *
  * @author mjlopez
  */
-public class AuthResponse {
+public class TokenResponse {
     private String token;
 
-    public AuthResponse(String token) {
+    public TokenResponse(String token) {
         this.token = token;
     }
 
@@ -22,6 +22,6 @@ public class AuthResponse {
     public void setToken(String token) {
         this.token = token;
     }
-
+    
+    
 }
-
